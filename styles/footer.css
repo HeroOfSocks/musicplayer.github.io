@@ -1,0 +1,79 @@
+*::after, *::before {
+content: none;
+}
+
+.mp-options:hover,
+.user-info-link:hover{
+    color: #bdbdbd;
+}
+
+footer{
+    height: 536px;
+    background: linear-gradient(180deg, #D53005 0%, #000000 4.01%);
+    color: #FFFFFF;
+}
+
+.footer-options{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.mp-title{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    margin-top: 25px;
+}
+
+.mp-options{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 19.5px;
+    margin-top: 25px;
+}
+
+.MP-store,
+.MP-values,
+.mp-profile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-right: 62px;
+}
+
+.legal-info{
+    display: flex;
+    align-items:end;
+    justify-content: space-around;
+}
+
+.footer-music-player-text{
+    font-family: Kenia;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.mplayer-rights{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+}
+
+.user-info-link{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
